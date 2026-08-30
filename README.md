@@ -1,4 +1,4 @@
-# rag_langfuse_project
+# LLM Traceability & Eval Pipeline with Langfuse
 
 Standalone PDF RAG pipeline built with LangGraph, wired up to a self-hosted
 Langfuse for observability — tracing, an analytics dashboard, LLM-as-judge
