@@ -1,0 +1,111 @@
+{
+  "corpus": "vell_harbour_story.pdf",
+  "corpus_note": "Fully fictional 10-page story. No answer is derivable from model pretraining.",
+  "questions": [
+    {"id": "Q1", "difficulty": "easy", "hops": 1, "pages": [1],
+     "question": "Who founded Vell Harbour, and in what year?",
+     "answer": "Odessa Pell, in 1682 of the Coastal Reckoning.",
+     "key_facts": ["Odessa Pell", "1682"]},
+
+    {"id": "Q2", "difficulty": "easy", "hops": 1, "pages": [5],
+     "question": "What vessel carried the Verity Expedition, and what were her length and build year?",
+     "answer": "The Meridian Wren, a 68-foot ketch built in 1859 at Cold Harbor by Anselm Roke.",
+     "key_facts": ["Meridian Wren", "68", "1859"]},
+
+    {"id": "Q3", "difficulty": "easy", "hops": 1, "pages": [4],
+     "question": "What bearing and distance did Osrin Fale report from the Kettle Light?",
+     "answer": "Bearing 212 degrees, eleven nautical miles.",
+     "key_facts": ["212", "eleven"]},
+
+    {"id": "Q4", "difficulty": "easy", "hops": 1, "pages": [7],
+     "question": "How many glass trees stood in the orchard on Quill Island, and how tall was the tallest?",
+     "answer": "208 trees; the tallest was 6.1 metres.",
+     "key_facts": ["208", "6.1"]},
+
+    {"id": "Q5", "difficulty": "easy", "hops": 1, "pages": [8],
+     "question": "How did the Chart Hall vote, and on what question?",
+     "answer": "23 to 19 to withhold the Guild seal, on whether a chart could be sealed on the verification of two Deepmarks from the same hull.",
+     "key_facts": ["23", "19", "withhold"]},
+
+    {"id": "Q6", "difficulty": "easy", "hops": 1, "pages": [10],
+     "question": "What words are on Ilvane Corrow's headstone?",
+     "answer": "SHE COUNTED FORTY-EIGHT.",
+     "key_facts": ["forty-eight"]},
+
+    {"id": "Q7", "difficulty": "medium", "hops": 1, "pages": [3],
+     "question": "Name the four Guild ranks in order, and state which may sign a chart.",
+     "answer": "Tally, Chartwright, Deepmark, Anchor-Master. Only Deepmarks and Anchor-Masters may sign.",
+     "key_facts": ["Tally", "Chartwright", "Deepmark", "Anchor-Master"],
+     "note": "Answer lives in a table; tests table-aware parsing."},
+
+    {"id": "Q8", "difficulty": "medium", "hops": 1, "pages": [8],
+     "question": "What three penalties did the Guild impose on Ilvane Corrow, and which did she say hurt?",
+     "answer": "A 600-crown fine, three-year suspension, and revocation of ink privileges - the last was the part she said hurt.",
+     "key_facts": ["600", "three years", "ink privileges"]},
+
+    {"id": "Q9", "difficulty": "medium", "hops": 1, "pages": [3],
+     "question": "How is salt-ink made, and how must it be stored?",
+     "answer": "Cuttlefish sac, iron gall, and 3 grams of powdered pumice per litre; dries in 40 seconds; stored below 12 degrees Celsius.",
+     "key_facts": ["3 grams", "pumice", "40 seconds", "12"]},
+
+    {"id": "Q10", "difficulty": "medium", "hops": 1, "pages": [4],
+     "question": "Who financed the expedition, with how much, and under what condition?",
+     "answer": "Perrin Sable gave 1,200 crowns on condition that no part of the island be named after her.",
+     "key_facts": ["Perrin Sable", "1200", "named after her"]},
+
+    {"id": "Q11", "difficulty": "medium", "hops": 2, "pages": [7, 9],
+     "question": "How many photographic plates were exposed, how many were usable, and what became of them?",
+     "answer": "14 exposed; 5 fogged and 9 were clear. Eight were destroyed in the Deepmonth 1877 Chart Hall fire; one survived on loan and is held in case twelve.",
+     "key_facts": ["14", "5", "9", "1877", "case twelve"]},
+
+    {"id": "Q12", "difficulty": "medium", "hops": 1, "pages": [4],
+     "question": "What happened on 14 Tessin 1871, and what different event happened on 14 Vessin 1871?",
+     "answer": "14 Tessin: Fale logged the sighting at bearing 212. 14 Vessin: the annual audit found nineteen charts missing from the third floor.",
+     "key_facts": ["sighting", "audit", "nineteen charts"],
+     "note": "Distractor discrimination - near-identical date strings."},
+
+    {"id": "Q13", "difficulty": "medium", "hops": 2, "pages": [2, 8],
+     "question": "Who was Bela Massin, and what did she do after the penalty vote?",
+     "answer": "Ilvane's master from 1863 and the expedition's chart verifier; she resigned after 41 years rather than sit on the penalty panel, never drew again, and died in 1888.",
+     "key_facts": ["master", "verifier", "resigned", "41 years"]},
+
+    {"id": "Q14", "difficulty": "hard", "hops": 2, "pages": [3, 5],
+     "question": "State Rule Nine, then explain exactly how the Verity Expedition failed to satisfy it, naming the individuals responsible.",
+     "answer": "Rule Nine requires verification by two Deepmarks working from separate boats. The only two Deepmarks aboard - Ilvane Corrow and Bela Massin - sailed in the same hull.",
+     "key_facts": ["separate boats", "Corrow", "Massin", "same hull"],
+     "note": "The rule and the violating roster never co-occur in a chunk."},
+
+    {"id": "Q15", "difficulty": "hard", "hops": 2, "pages": [2, 9],
+     "question": "On what date was Quill Island found to be gone, and why is that date personally significant to Ilvane Corrow?",
+     "answer": "3 Marrowtide 1873 - her twenty-fourth birthday, having been born 3 Marrowtide 1849.",
+     "key_facts": ["3 Marrowtide 1873", "birthday", "1849"]},
+
+    {"id": "Q16", "difficulty": "hard", "hops": 2, "pages": [6, 9],
+     "question": "Give both soundings taken at the island's position and the difference between them.",
+     "answer": "240 fathoms by the Meridian Wren on 6 Hollowmonth 1871; 244 fathoms by the Nine Sisters in 1873 - four fathoms deeper.",
+     "key_facts": ["240", "244", "four fathoms"]},
+
+    {"id": "Q17", "difficulty": "hard", "hops": 2, "pages": [4, 10],
+     "question": "In what year did Osrin Fale begin keeping the Kettle Light? Show two routes in the text to that answer.",
+     "answer": "1840. Either 1871 minus 31 years of service, or 1879 (his death) minus 39 total years.",
+     "key_facts": ["1840", "31", "39"]},
+
+    {"id": "Q18", "difficulty": "hard", "hops": 4, "pages": [1, 4, 6, 8],
+     "question": "The number nineteen appears in at least five unrelated roles in this document. List them.",
+     "answer": "The Slack every 19 days; 19 charts missing in the audit; Marek Oduya a Deepmark of 19 years; the vote 23 to 19; the voyage 19 days.",
+     "key_facts": ["Slack", "charts missing", "Oduya", "vote", "voyage"],
+     "note": "Tests whether numeric near-duplicates collapse in the index."},
+
+    {"id": "Q19", "difficulty": "hard", "hops": 1, "pages": [7], "type": "negative_control",
+     "question": "What language was the obelisk inscription written in, and what does it say?",
+     "answer": "UNANSWERABLE. The script has never been identified. Ovid Kesh's rendering 'we counted, and were counted' is explicitly labelled a guess.",
+     "key_facts": ["never identified", "guess"],
+     "fail_signal": "Any confident language identification, or presenting Kesh's line as a translation."},
+
+    {"id": "Q20", "difficulty": "hard", "hops": 1, "pages": [2], "type": "negative_control",
+     "question": "What was the name of the vessel Ilvane's brother Wick sailed on when he left the islands?",
+     "answer": "UNANSWERABLE. Wick is never mentioned again in any surviving document.",
+     "key_facts": ["not stated"],
+     "fail_signal": "Answering 'Grey Petrel' - that is her father's trawler, in the adjacent sentence."}
+  ]
+}
